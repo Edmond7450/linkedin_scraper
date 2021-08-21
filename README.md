@@ -29,7 +29,7 @@ driver = webdriver.Chrome()
 email = "some-email@email.address"
 password = "password123"
 actions.login(driver, email, password) # if email and password isnt given, it'll prompt in terminal
-person = Person("https://www.linkedin.com/in/andre-iguodala-65b48ab5", driver=driver)
+person = Person("https://www.linkedin.com/in/edmond-dantes-a985081b9", driver=driver)
 ```
 
 **NOTE**: The account used to log-in should have it's language set English to make sure everything works as expected.
@@ -38,7 +38,7 @@ person = Person("https://www.linkedin.com/in/andre-iguodala-65b48ab5", driver=dr
 
 ```python
 from linkedin_scraper import Person
-person = Person("https://www.linkedin.com/in/andre-iguodala-65b48ab5")
+person = Person("https://www.linkedin.com/in/edmond-dantes-a985081b9")
 ```
 
 ### Company Scraping
@@ -56,7 +56,7 @@ company = Company("https://ca.linkedin.com/company/google")
 from linkedin_scraper import Person
 from selenium import webdriver
 driver = webdriver.Chrome()
-person = Person("https://www.linkedin.com/in/andre-iguodala-65b48ab5", driver = driver, scrape=False)
+person = Person("https://www.linkedin.com/in/edmond-dantes-a985081b9", driver = driver, scrape=False)
 ```
 4. Login to Linkedin
 5. [OPTIONAL] Logout of Linkedin
@@ -84,7 +84,7 @@ driver = webdriver.Chrome()
 email = "some-email@email.address"
 password = "password123"
 actions.login(driver, email, password) # if email and password isnt given, it'll prompt in terminal
-person = Person("https://www.linkedin.com/in/andre-iguodala-65b48ab5", driver=driver)
+person = Person("https://www.linkedin.com/in/edmond-dantes-a985081b9", driver=driver)
 ```
 
 
@@ -129,7 +129,8 @@ This is the driver from which to scraper the Linkedin profile. A driver using Ch
 For example
 ```python
 driver = webdriver.Chrome()
-person = Person("https://www.linkedin.com/in/andre-iguodala-65b48ab5", driver = driver)
+person = Person("https://www.linkedin.com/in/edmond-dantes-a985081b9", driver = driver)
+
 ```
 
 #### `scrape`
